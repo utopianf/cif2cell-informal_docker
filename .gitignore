@@ -15,4 +15,7 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
-./cifs/*
+./cifs/*.cif
+./cifs/*.in
+
+.devcontainer

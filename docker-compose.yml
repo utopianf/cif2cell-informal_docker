@@ -1,0 +1,7 @@
+version: '3'
+services:
+  cif2cell:
+    volumes:
+      - ./cifs:/cifs
+    build: .
+    command: 'bash /cifs/run.sh'

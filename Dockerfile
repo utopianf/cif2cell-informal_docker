@@ -5,5 +5,6 @@ RUN cd cif2cell-informal && tar zxvf PyCifRW-3.3.tar.gz
 RUN cd cif2cell-informal/PyCifRW-3.3 && python setup.py install
 RUN cd cif2cell-informal && python setup.py install
 
+CMD [ "bash", "/cifs/run.sh" ]
 # CMD [ "ls", "/opt/cifs/*"]
 # CMD [ "cif2cell", "-p", "pwscf", "-f", "/opt/cifs/sd_1704411.cif" ]
